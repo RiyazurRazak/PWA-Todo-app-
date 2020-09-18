@@ -1,0 +1,44 @@
+.sidebar{
+    width: 64.32px;
+    height: 100vh;
+}
+   
+.sidebar__bottom{
+    position: fixed;
+    bottom: 10px;
+    margin: 0 10px
+}
+.sidebar__top{
+    margin: 15px 10px;
+    
+}
+.color-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: red;
+    margin: 20px 0px !important;
+    font-size: 5px !important;
+}
+.color-btn-selected{
+    border: 3px solid blueviolet;
+    border-radius: 100%;
+}
+
+
+@media only screen and (max-width: 600px){
+    .sidebar__top{
+        display: none;
+        visibility: hidden;
+    }
+    .sidebar{
+        height: auto;
+        width: auto;
+    }
+    .dialog__color_selector{
+        margin-top: 10px;
+    }
+    .sidebar__bottom{
+        margin-bottom: 55px;
+    }
+}

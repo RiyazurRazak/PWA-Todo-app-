@@ -1,0 +1,42 @@
+.app{
+    display: flex;
+    height: 100%;
+}
+.app__sidebar{
+    flex: 0.05;
+    flex-direction: column;
+    height: auto;
+    background-color:#eeeded;
+}
+.app__body{
+    flex: 0.95;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+.app_mobile_body{
+    display: none;
+    visibility: hidden;
+}
+.app__footer{
+    display: initial;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    .app__sidebar , .app__body{
+        display: none;
+        visibility: hidden;
+    }
+    .app_mobile_body{
+        display: block;
+        visibility: visible;
+    }
+
+    
+    
+}

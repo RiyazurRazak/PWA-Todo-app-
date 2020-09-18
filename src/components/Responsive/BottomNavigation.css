@@ -1,0 +1,21 @@
+a{
+    text-decoration: none !important;
+}
+.bottom-navigation{
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.btm-navigation{
+    color: #eee8e8!important;
+}
+.fas{
+    font-size: 17.99px;
+}
+.footer{
+  opacity: 0.7;
+  color: #808080;
+  margin-bottom: 80px;
+  text-align: center;
+}

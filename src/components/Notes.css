@@ -1,0 +1,28 @@
+.notes{
+    flex: 0.65;
+    margin-right:30px;
+   
+}
+.notes__header{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Concert One', cursive;
+    border-bottom: 3px solid rebeccapurple;
+}
+.notes__body{
+    margin-top: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+@media only screen and (max-width: 600px){
+    .notes{
+        margin-right: 0px;
+    }
+    .notes__header{
+        display: none;
+        visibility: hidden;
+    }
+
+}

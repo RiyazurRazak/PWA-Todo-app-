@@ -1,0 +1,23 @@
+.todo{
+    flex: 0.35;
+}
+.todo__header{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Concert One', cursive;
+    border-bottom: 3px solid rebeccapurple;
+}
+.todo__body{
+    margin-top: 30px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+
+@media only screen and (max-width: 600px){
+      .todo__header{
+          display: none;
+          visibility: hidden;
+      }
+}

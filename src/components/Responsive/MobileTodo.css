@@ -1,0 +1,12 @@
+.mobile_back_btn{
+    margin: 20px;
+}
+.mobile_todo_title{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Syne', sans-serif;
+    background: -webkit-linear-gradient(#F37964, #FF5874);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

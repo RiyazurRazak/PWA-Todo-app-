@@ -1,0 +1,25 @@
+.mobile__header{
+    margin: 20px;
+    font-weight: 700;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#F37964, #FF5874);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mobile__date{
+    margin: 20px;
+    font-size: 16px;
+    color: #808080;
+    font-family: 'Concert One', cursive;
+}
+.mobile_title{
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Syne', sans-serif;
+}
+.mobile_home_last{
+    margin-bottom: 80px;
+}
+
+

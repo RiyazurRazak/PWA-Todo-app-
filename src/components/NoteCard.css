@@ -1,0 +1,43 @@
+.card{
+    flex-basis: 30% ;
+    min-height: 40px !important;
+    margin-top: 30px;
+}
+
+.notecard-title{
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+.divider{
+    color: grey !important;
+}
+.delete-icn{
+    position: relative !important;
+    bottom: 10px;
+}
+.notecard-content{
+    padding-top: 10px !important;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 800px) {
+
+    .card{
+        flex-basis: 45% ;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .card{
+        flex-basis: 100% ;
+        margin: 10px 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+
+    .card{
+        flex-basis: 90% ;
+    }
+    
+}
